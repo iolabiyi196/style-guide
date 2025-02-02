@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(211, 208, 208);
+}
+
+header {
+    position: fixed;
+    height: 95px;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+nav li {
+    display: inline;
+    font-size: 1.5em;
+    margin: 0 10px;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
