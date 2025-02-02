@@ -53,6 +53,10 @@ a {
     box-shadow: -5px 5px 5px black;
 }
 
+.section-title {
+    font-size: 2.5rem;
+}
+
 .flex-colors {
     width: 80%;
     display: flex;
@@ -149,4 +153,14 @@ a {
 
 footer {
     height: 75px;
+    background-color: #333;
+    position: relative;
+    top: 75px;
+    color: #fff;
+    text-align: right;
+    padding: 26px 25px;
+}
+
+.credits a {
+    color: rgb(130, 130, 120);
 }
