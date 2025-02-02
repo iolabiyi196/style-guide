@@ -23,6 +23,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 25px;
+    z-index: 9;
 }
 
 header h1 {
@@ -45,7 +46,7 @@ a {
     position: relative;
     top: 125px;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
     padding: 25px 30px;
     border-radius: 5px;
     background-color: #fff;
@@ -70,7 +71,7 @@ a {
     box-shadow: -2px 2px 2px black;
     margin: 15px 10px;
     transition: height, width, .5s;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .color:hover {
@@ -78,6 +79,10 @@ a {
     width: 200px;
 }
 
+.color-name {
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
 .color-name, .hex-code {
     display: block;
@@ -103,4 +108,45 @@ a {
 
 .orange {
     background-color: orange;
+}
+
+.fonts-section {
+    width: 95%;
+    padding: 25px 30px;
+    margin: 45px auto;
+    border: 1px solid black;
+    box-shadow: -2px 2px 2px black;
+    line-height: 3;
+}
+
+.fonts-section h2 {
+    text-decoration: underline;
+}
+
+.abril-fatface {
+    font-family: "Abril FatFace", Arial, Helvetica, sans-serif;
+}
+
+.merriweather {
+    font-family: "Merriweather", Arial, Helvetica, sans-serif;
+}
+
+.roboto {
+    font-family: "Roboto", Arial, Helvetica, sans-serif
+}
+
+.space-mono {
+    font-family: "Space Mono", Arial, Helvetica, sans-serif
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer {
+    height: 75px;
 }
