@@ -68,11 +68,24 @@ a {
     border: 1px solid black;
     border-radius: 3px;
     box-shadow: -2px 2px 2px black;
-    padding: 70px auto;
     margin: 15px 10px;
+    transition: height, width, .5s;
+    font-size: 1.5rem;
+}
+
+.color:hover {
+    height: 200px;
+    width: 200px;
+}
+
+
+.color-name, .hex-code {
+    display: block;
+    margin-top: 25px;
 }
 
 .black {
+    color: #fff;
     background-color: black;
 }
 
