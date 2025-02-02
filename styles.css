@@ -40,3 +40,54 @@ a {
     color: #fff;
     text-decoration: none;
 }
+
+.sections {
+    position: relative;
+    top: 125px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: -5px 5px 5px black;
+}
+
+.flex-colors {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.color {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: -2px 2px 2px black;
+    padding: 70px auto;
+    margin: 15px 10px;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
