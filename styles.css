@@ -7,6 +7,7 @@
 html {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -74,13 +75,13 @@ a {
     border-radius: 3px;
     box-shadow: -2px 2px 2px black;
     margin: 15px 10px;
-    transition: height, width, .5s;
     font-size: 1.25rem;
+    transform: scale(0.95);
+    transition: all .5s ease-in-out;
 }
 
 .color:hover {
-    height: 200px;
-    width: 200px;
+    transform: scale(1.2);
 }
 
 .color-name {
@@ -88,9 +89,15 @@ a {
     font-weight: bold;
 }
 
+
 .color-name, .hex-code {
-    display: block;
+    opacity: 0;
     margin-top: 25px;
+    transform: opacity .2s ease-in-out;
+}
+
+.color-name:active, .hex-code:active {
+    opacity: 1;
 }
 
 .black {
