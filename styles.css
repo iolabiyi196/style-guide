@@ -93,10 +93,11 @@ a {
 .color-name, .hex-code {
     opacity: 0;
     margin-top: 25px;
-    transform: opacity .2s ease-in-out;
+    transition: opacity .5s ease-in-out;
 }
 
-.color-name:active, .hex-code:active {
+
+.color-name:hover, .hex-code:hover {
     opacity: 1;
 }
 
